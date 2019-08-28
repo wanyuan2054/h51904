@@ -1,0 +1,258 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+*img{
+  border: none;
+  display: block;
+}
+
+.head{
+  width: 100%;
+  box-sizing:border-box;
+}
+.head-centre{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.head-centre-right{
+  width: 700px;
+  display: flex;
+justify-content: space-between;
+
+}
+
+.head-centre-right a{
+  height: 80px;
+  width: 20%;
+  font-size: 20px;
+  text-decoration:none;
+  color: #333333;
+  box-sizing:border-box;
+  display: flex;
+  line-height: 400%;
+  justify-content: center;
+}
+.head-centre-right a:hover{
+  border-bottom: 3px solid #866961;
+}
+.lunbotu{
+  width: 100%;
+  position: relative;
+}
+.motaikuan{
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  background: black;
+  opacity: 0.5;
+  top: 0;
+}
+.lunbotu-one{
+position: absolute;
+top: 165px;
+left: 880px;
+
+}
+.lunbotu-four{
+  font-size: 20px;
+  color: white;
+}
+
+.lunbotu-one p{
+  font-size: 30px;
+  float: left;
+  color: white;
+}
+.lunbotu-one-i{
+  display: block;
+  height: 1px;
+  width: 284px;
+  background: white;
+  float: right;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.lunbotu-two{
+position: absolute;
+top: 200px;
+left: 600px;
+
+
+}
+.lunbotu-two i{
+  display: block;
+  height: 1px;
+  width: 284px;
+  background: white;
+  margin-top: 20px;
+  margin-left: 10px;
+  float: left;
+}
+.lunbotu-two p{
+  float: right;
+  font-size: 30px;
+color: white;
+margin-left: 10px;
+}
+.lunbotu-two span{
+  font-size: 25px;
+  margin-left: 10px;
+}
+.coffee{
+  width: 996px;
+  margin: 0 auto;
+}
+.coffee-top{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.coffee-top-centre{
+  width: 996px;
+  height: 40px;
+  border-bottom: 1px solid #d5d5d5;
+display: flex;
+align-items: center;
+position: relative;
+}
+.coffee-top-centre i{
+  display: block;
+  width: 2px;
+  height: 9px;
+  background-color: #866961;
+  position: absolute;
+  top: 10px;
+}
+.coffee-top-centre-left{
+  height: 100%;
+  position: relative;
+}
+.coffee-top-centre-left p:nth-of-type(2){
+  color:#cfcfcf;
+  font-size: 12px;
+}
+.coffee-top-centre-left:first-child p{
+  margin-left: 5px;
+}
+.coffee-top-centre-right{
+display: flex;
+position: absolute;
+right: 0;
+}
+.coffee-top-centre-right-text{
+  color:#a7a7a7;
+}
+.jia{
+  width: 996px;
+  height: 600px;
+  margin: 0 auto;
+}
+.jia-left{
+  float: left;
+  width: 375px;
+  height: 100%;
+/* background-image: url(../images/大.jpg); */
+background-repeat: no-repeat;
+background-size: cover;
+}
+.jia-left img{
+  width: 375px;
+  height: 600px;
+}
+.jia-right{
+  height: 100%;
+  float: left;
+  width: 596px;
+}
+.jia-right-one{
+  height: 45px;
+width: 596px;
+float: left;
+margin-left: 24px;
+}
+.jia-right-one span{
+font-size: 12px;
+}
+.jia-right-one p{
+  color: #999999;
+  margin-left: 24px;
+
+}
+.jia-right-two{
+  height: 247px;
+  width: 596px;
+  margin-top: 45px;
+  text-indent: 36px;
+  text-align: justify;
+  color: #999999;
+}
+.jia-right-two p{
+margin-top: 30px;
+margin-left: 24px;
+}
+.jia-right-two p:first-child{
+  margin-top: 60px;
+  margin-left: 24px;
+}
+.jia-right-three-one img{
+  width: 145px;
+  height: 220px;
+  vertical-align: top;
+}
+.jia-right-three-one{
+  float: left;
+}
+.jia-right-three-one-buttom{
+  width: 145px;
+  height: 72px;
+  text-align: center;
+  background: #333333;
+}
+.jia-right-three-one-buttom span{
+  color: white;
+  display: inline-block;
+  margin-top: 15px;
+}
+.jia-right-three-one-buttom p{
+  color: #999999;
+}
+.jia-right-three{
+  position: relative;
+  margin-left: 25px;
+  display: flex;
+}
+.jia-right-three i{
+  display: block;
+  background: #333333;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 220px;
+}
+.jia-right-three-two img{
+  width: 145px;
+  height: 220px;
+  vertical-align: top;
+  opacity: 0;
+}
+.jia-right-three-two-buttom{
+  width: 145px;
+  height: 72px;
+  text-align: center;
+}
+.jia-right-three-two-buttom span{
+  color: #4e4e4e;
+  display: inline-block;
+  margin-top: 15px;
+}
+.jia-right-three-two-buttom p{
+  color: #999999;
+}
+.jia-right-three a{
+  text-decoration:none;
+}

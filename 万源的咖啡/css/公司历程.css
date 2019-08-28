@@ -1,0 +1,263 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.head{
+  width: 100%;
+  box-sizing:border-box;
+}
+.head-centre{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.head-centre-right{
+  width: 700px;
+  display: flex;
+justify-content: space-between;
+
+}
+
+.head-centre-right a{
+  height: 80px;
+  width: 20%;
+  font-size: 20px;
+  text-decoration:none;
+  color: #333333;
+  box-sizing:border-box;
+  display: flex;
+  line-height: 400%;
+  justify-content: center;
+}
+.head-centre-right a:hover{
+  border-bottom: 3px solid #866961;
+}
+.lunbotu{
+  width: 100%;
+  position: relative;
+}
+.motaikuan{
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  background: black;
+  opacity: 0.5;
+  top: 0;
+}
+.lunbotu-one{
+position: absolute;
+top: 165px;
+left: 880px;
+
+}
+.lunbotu-four{
+  font-size: 20px;
+  color: white;
+}
+
+.lunbotu-one p{
+  font-size: 30px;
+  float: left;
+  color: white;
+}
+.lunbotu-one-i{
+  display: block;
+  height: 1px;
+  width: 284px;
+  background: white;
+  float: right;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.lunbotu-two{
+position: absolute;
+top: 200px;
+left: 600px;
+
+
+}
+.lunbotu-two i{
+  display: block;
+  height: 1px;
+  width: 284px;
+  background: white;
+  margin-top: 20px;
+  margin-left: 10px;
+  float: left;
+}
+.lunbotu-two p{
+  float: right;
+  font-size: 30px;
+color: white;
+margin-left: 10px;
+}
+.lunbotu-two span{
+  font-size: 25px;
+  margin-left: 10px;
+}
+.coffee{
+  width: 996px;
+  margin: 0 auto;
+}
+.coffee-top{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.coffee-top-centre{
+  width: 996px;
+  height: 40px;
+  border-bottom: 1px solid #d5d5d5;
+display: flex;
+align-items: center;
+position: relative;
+}
+.coffeeleft{
+  width: 355px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.coffee-top-centre i{
+  display: block;
+  width: 2px;
+  height: 9px;
+  background-color: #866961;
+  position: absolute;
+  top: 10px;
+}
+.coffee-top-centre-left{
+  height: 100%;
+  position: relative;
+  
+}
+.coffee-top-centre-left p:nth-of-type(2){
+  color:#cfcfcf;
+  font-size: 12px;
+}
+.coffee-top-centre-left p{
+  margin-left: 5px;
+}
+.coffee-top-centre-right{
+display: flex;
+position: absolute;
+right: 0;
+}
+.coffee-top-centre-right-text{
+  color:#a7a7a7;
+}
+.text{
+  width: 996px;
+  margin: 0 auto;
+height: 520px;
+}
+.text-left{
+  float: left;
+}
+.text-left p{
+  width: 125px;
+  font-size: 18px;
+  color: #999999;
+  display: flex;
+}
+.text-left p:hover{
+  color: #866961;
+}
+.text-left i{
+  display: block;
+  width: 1px;
+  height: 7px;
+  background: #999999;
+  margin-left: 2px;
+  margin-top: 10px;
+}
+.text-left span{
+  margin-left: 12px;
+  display: flex;
+  width: px;
+}
+.text-left .text-left-one{
+  width: 1px;
+  height: 58px;
+  margin-top: 10px;
+  margin-left: 26px;
+ margin-bottom: 10px;
+}
+.text-left .text-left-two{
+  width: 1px;
+  height: 111px;
+  margin-top: 10px;
+  margin-left: 26px;
+ margin-bottom: 10px;
+}
+.text-left .text-left-three{
+  width: 1px;
+  height: 125px;
+  margin-top: 10px;
+  margin-left: 26px;
+ margin-bottom: 10px;
+}
+.text-right-one{
+  border-bottom: 1px solid #f2f2f2;
+height: 25px;
+float: left;
+width: 400px;
+white-space: nowrap ;
+overflow: hidden ;
+text-overflow:ellipsis;
+}
+.text-right-one:hover{
+  color: #866961;
+}
+.text-right-two:hover{
+  color: #866961;
+}
+.text-right-one span{
+  float: left;
+}
+.text-right-one p{
+ margin-left: 60px;
+ white-space: nowrap ;
+overflow: hidden ;
+text-overflow:ellipsis;
+}
+.text-right-two{
+  border-bottom: 1px solid #f2f2f2;
+height: 25px;
+float: left;
+width: 870px;
+margin-top: 25px;
+}
+.text-right-two span{
+  float: left;
+}
+.text-right-two p{
+  float: left;
+  margin-left: 20px;
+ width: 400px;
+ white-space: nowrap ;
+overflow: hidden ;
+text-overflow:ellipsis;
+}
+/* 底部 */
+.coffeefot{
+    width: 100%;
+    height: 80px;
+    background: #866961;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .coffeefot-one{
+    width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  }
+  .coffeefot-one img{
+    margin-right: 150px;
+   }

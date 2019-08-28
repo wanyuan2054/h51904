@@ -1,0 +1,405 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.top{
+  width: 100%;
+  box-sizing:border-box;
+}
+.top-centre{
+  width: 1200px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.top-right{
+  width: 700px;
+  display: flex;
+justify-content: space-between;
+
+}
+
+.top-right a{
+  height: 80px;
+  width: 20%;
+  font-size: 20px;
+  text-decoration:none;
+  color: #333333;
+  box-sizing:border-box;
+  display: flex;
+  line-height: 400%;
+  justify-content: center;
+}
+.top-right a:hover{
+  border-bottom: 3px solid #866961;
+}
+/* 轮播图 */
+.slideshow{
+width: 100%;
+height: 600px;
+border-bottom: 0px solid #fdf1bf;
+
+}
+.slideshow img{
+  width: 100%;
+  height: 100%;
+}
+/* 关于我们 */
+.we{
+  width: 1200px;
+  height: 790px;
+  margin: 0 auto;
+}
+.we-top{
+  width: 100%;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.we-top-top{
+  width: 250px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.we-top-top span{
+width: 93px;
+height: 23px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.we-top-top i{
+  width: 85px;
+  height: 1px;
+  background-color: #999999;
+  display: block;
+}
+.we-top-top p{
+  width: 252px;
+  height: 12px;
+  display: flex;
+  justify-content: space-around;
+  color: #999999;
+  align-items: center;
+}
+/* 公司介绍 */
+.we-buttom{
+  width: 1200px;
+  height: 630px;
+  display: flex;
+justify-content: space-between;
+}
+.we-buttom-left{
+  width: 477px;
+  height: 630px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.we-buttom-left-img{
+  width: 393px;
+  height: 518px;
+  border: 1px solid #000;
+}
+.we-buttom-left-img img{
+  margin-left: 20px;
+margin-top: -20px;
+}
+.we-buttom-right{
+width: 710px;
+height: 630px;
+}
+.we-buttom-right-top{
+  width: 723px;
+  height:90px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.we-buttom-right-top span{
+  font-size: 30px;
+  width: 100%;
+  height: 89px;
+}
+.we-buttom-right-top i{
+  width: 36px;
+  height: 1px;
+  display: block;
+  background-color: #000;
+}
+.we-buttom-right-text{
+  text-indent:2em;
+  width: 590px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #3a3438;
+ 
+}
+.we-buttom-right-text p{
+  text-indent:2em;
+  line-height: 30px;
+}
+.diergep{
+  margin-top: -20px;
+}
+/* 中间隔开的长图 */
+.long{
+width: 100%;
+position: relative;
+}
+.long img:nth-child(1){
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.long p{
+  position: absolute;
+  top: 50%;
+  color: white;
+  font-size: 20px;
+  margin-top: -13px;
+  left: 50%;
+  margin-left: -183px;
+}
+.product{
+  height: 620px;
+  width: 1200px;
+  margin: 0 auto;
+}
+.product-buttom{
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
+}
+.product-buttom-noe{
+  width: 330px;
+  height: 490px;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+position: relative;
+overflow: hidden;
+
+}
+.product-buttom-noe:hover img{
+  transform: scale(1.1);
+
+}
+.product-buttom-noe:hover .tubiao{
+  opacity: 0.6;
+}
+.product-buttom-noe:hover p{
+  color: #333333;
+}
+.tubiao i{
+  font-size: 100px;
+}
+.tubiao{
+  width: 327px;
+height: 298px;
+position: absolute;
+left: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+opacity: 0;
+background-color: #666666;
+
+}
+/* .tubiao:hover{
+opacity: 0.6;
+
+} */
+
+.product-buttom-noe-text{
+  width: 320px;
+  height: 130px;
+}
+.product-buttom-noe-text-top{
+width: 100%;
+height: 64px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+
+
+}
+.wanyuan
+{
+  width: 98%;
+  height: 298px;
+  overflow: hidden;
+}
+
+.product-buttom-noe-text-top span{
+width: 320px;
+height: 63px;
+  color: #666666;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-buttom-noe-text-top i{
+  display: block;
+  width: 32px;
+  height: 1px;
+  background-color: #333333;
+}
+.product-buttom-noe-text p{
+  margin-top: 10px;
+  color: #a7a7a7;
+}
+/* 公司团队 */
+.team{
+  width: 1200px;
+  height: 666px;
+  margin: 0 auto;
+}
+.team-buttom{
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  transform-style: preserve-3d;
+}
+.team-buttom-one{
+  width: 245px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ transition: all 1s;
+ position: absolute;
+ 
+}
+.team-buttom-two{
+  width: 245px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ transition: all 1s;
+ position: absolute;
+ transform: rotateY(180deg);
+ backface-visibility: hidden;
+}
+.team-buttom-kong{
+  width: 245px;
+  height: 500px;
+  position: relative;
+
+ 
+}
+.team-buttom-kong:hover .team-buttom-two{
+  transform: rotateY(0deg);
+  transition: 1s;
+}
+.team-buttom-kong:hover .team-buttom-one{
+  transform: rotateY(180deg);
+  
+  
+}
+.team-buttom-one img{
+  transform: scale(5px,5px,)
+}
+.team-buttom-one-buttom{
+  margin-top: -1px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+border: 1px solid #999999;
+border-top: none;
+justify-content: center;
+align-items: center;
+background-color: white;
+}
+.team-buttom-one-buttom p{
+ justify-content: center;
+ color: #5b5b5b;
+ margin-top: 10px;
+}
+.team-buttom-two-buttom{
+  margin-top: -1px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+border: 1px solid #999999;
+border-top: none;
+justify-content: space-around;
+align-items: center;
+background-color: white;
+background-color: black;
+color: white;
+}
+.team-buttom-two-buttom i{
+  width: 28px;
+  height: 1px;
+  display: block;
+  background-color: white;
+ 
+}
+.relation{
+  width: 1200px;
+ margin: 0 auto;
+  margin-top: 80px;
+}
+.relation-buttom-noe-left{
+  overflow: hidden;
+}
+.relation-buttom-noe-left:hover img{
+  transform:scale(1.2)
+}
+.relation-buttom-right{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.relation-buttom{
+  display: flex;
+  justify-content: space-around;
+}
+.relation-buttom-noe{
+  display: flex;
+  line-height: 25px;
+}
+.relation-buttom-noe-right{
+  margin-left: 10px;
+}
+.relation-buttom-noe span{
+  font-size: 20px;
+}
+.relation-buttom-noe-top{
+  font-size: 14px;
+  color: #999999;
+}
+.foot{
+  width: 1200px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.foot-noe{
+  width: 100%;
+  background-color: #866961;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
